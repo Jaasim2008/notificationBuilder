@@ -11,9 +11,9 @@ err - Error Notification
 ```
 ## Example
 `> inf Hello World`     
-![Example Window](https://cdn.discordapp.com/attachments/935171913146318941/968584744629575700/unknown.png)
+![Example Window](https://cdn.discordapp.com/attachments/935171913146318941/968584744629575700/unknown.png)   
 `> err Error Dialog`   
-![Error Window](https://cdn.discordapp.com/attachments/935171913146318941/968585197211746375/error.png)
+![Error Window](https://cdn.discordapp.com/attachments/935171913146318941/968585197211746375/error.png)   
 `> wrn Warning!`
 ![Warning Window](https://cdn.discordapp.com/attachments/935171913146318941/968585638104428584/warning.png)
 ## Future Plans
