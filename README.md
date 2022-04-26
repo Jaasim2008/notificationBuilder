@@ -15,6 +15,6 @@ err - Error Notification
 `> err Error Dialog`   
 ![Error Window](https://cdn.discordapp.com/attachments/935171913146318941/968585197211746375/error.png)   
 `> wrn Warning!`
-![Warning Window](https://cdn.discordapp.com/attachments/935171913146318941/968585638104428584/warning.png)
+![Warning Window](https://cdn.discordapp.com/attachments/935171913146318941/968585638104428584/warning.png)   
 ## Future Plans
 We are Planning to Add `Yes or No Questions` at Version 2
