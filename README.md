@@ -23,5 +23,5 @@ title - Change Title Of the Program
 `> wrn Warning!`   
 ![Warning Window](https://cdn.discordapp.com/attachments/935171913146318941/968585638104428584/warning.png)
 ## Future Plans
-I am Planning to Add a `Good UI` at Version 2
+I am Planning to Add a `Good UI` at Version 2    
 I am are Planning to Add `Yes or No Questions` at Version 3
