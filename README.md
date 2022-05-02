@@ -3,11 +3,17 @@ notificationBuilder[v1]
 ## About
 Notification Builder is a Small Program Which Help You to Create Fake Notifications (For Entertainment Purposes)
 ## Usage
-Starting Variables :
 ```
+Starting Variables :
 inf - Info Notification
 wrn - Warning Notification
 err - Error Notification
+---
+Others:
+play - Run Program
+exit / quit - Close Program Properly
+info - Information About JSON Data Queue
+title - Change Title Of the Program
 ```
 ## Example
 `> inf Hello World`     
