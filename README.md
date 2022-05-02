@@ -2,6 +2,8 @@
 notificationBuilder[v1]
 ## About
 Notification Builder is a Small Program Which Help You to Create Fake Notifications (For Entertainment Purposes)
+## Video Manual
+`coming soon!`
 ## Usage
 ```
 Starting Variables :
