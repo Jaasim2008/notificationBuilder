@@ -1,5 +1,6 @@
 # notificationBuilder
 notificationBuilder[v1]
+NTB Version 2 is Under Development!
 ## About
 Notification Builder is a Small Program Which Help You to Create Fake Notifications (For Entertainment Purposes)
 ## Video Manual
