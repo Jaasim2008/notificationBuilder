@@ -82,3 +82,37 @@ class Json_Manager:
                     print('Change Data --> Pass')
         except Exception as e:
             print(f'Error : {e}')
+    def get_all_data(self):
+        try:
+            with open(self.json_file_name, 'r+') as file:
+                f = Path(self.json_file_name)
+                full_data = json.loads(f.read_text())
+                return full_data
+                '''
+                my_data = json.loads(f.read_text())
+                my_data[str(oldkey)] = newvalue
+                f.write_text(json.dumps(my_data, indent=2))
+                '''
+                if self.notify:
+                    print('Change Data --> Pass')
+        except Exception as e:
+            print(f'Error : {e}')
+    def delete_data(self, key):
+        try:
+            with open(self.json_file_name, 'r+') as file:
+                f = Path(self.json_file_name)
+                full_data = json.loads(f.read_text())
+                full_data.pop(str(key))
+                self.clear_data()
+                file.write(json.dumps(full_data, indent=4))
+                '''
+                data = json.dumps(full_data, indent=4)
+                file.write(data)
+                my_data = json.loads(f.read_text())
+                my_data[str(oldkey)] = newvalue
+                f.write_text(json.dumps(my_data, indent=2))
+                '''
+                if self.notify:
+                    print('Change Data --> Pass')
+        except Exception as e:
+            print(f'Error : {e}')
