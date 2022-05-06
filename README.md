@@ -10,6 +10,5 @@ Screenshot:
 ## Video Manual
 `coming soon!`
 
-## Future Plans
-I am Planning to Add a `Good UI` at Version 2    
+## Future Plans   
 I am are Planning to Add `Yes or No Questions` at Version 3
