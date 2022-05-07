@@ -11,7 +11,7 @@ import run as runPY
 
 jsn = Json_Manager('config.json', False)
 colorama.init(autoreset=True)
-print(f"{Fore.GREEN}Welcome to NotificationBuilder [v2]\nProject By Jaazim")
+print(f"{Fore.GREEN}Welcome to NotificationBuilder [v2.1]\nProject By Jaazim")
 
 startingVariables = ['inf', 'wrn', 'err']
 quitVariables = ['quit', 'exit', 'leave', 'e', 'stop']
@@ -37,7 +37,13 @@ main_frame.pack(fill=BOTH, expand=True)
 queue_txt = Label(main_frame, text='Queue:', font=(root_font, 15), fg='black')
 queue_txt.pack()
 
-queue_listbox = Listbox(main_frame, font=(root_font, 15), fg='black')
+queue_listbox_frame = Frame(main_frame)
+queue_listbox_frame.pack()
+
+queue_listbox = Listbox(queue_listbox_frame, font=(root_font, 15), fg='black')
+slb = Scrollbar(queue_listbox_frame, command=queue_listbox.yview)
+queue_listbox.configure(yscrollcommand = slb.set)
+slb.pack(side=RIGHT, fill=Y)
 def checkQueue(*reload):
     no_of_messages = jsn.get_data("msgs")
     if not reload:
